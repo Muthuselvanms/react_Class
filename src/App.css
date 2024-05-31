@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+ul{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+}
+
+.icons{
+    margin: 0 10px;
+    color: rgb(5, 248, 126);
+}
+
+
+@media screen and (max-width : 650px) {
+    .link{
+        text-decoration: none;
+        color: red;
+        font-size: 15px;
+    }
+}
