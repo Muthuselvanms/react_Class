@@ -10,8 +10,8 @@ const Navigation = () => {
     <nav>
       <ul>
         <li><Link className='link' to="/"> <FaHome className='icons' />HOME</Link></li>
-        <li><Link className='link' to="/product"> <AiOutlineProduct className='icons'/> PRODUCT</Link></li>
-        <li><Link className='link' to="/cart"> <FaCartPlus className='icons'/> CART</Link></li>
+        <li><Link className='link' to="/products"> <AiOutlineProduct className='icons'/> PRODUCT</Link></li>
+        <li><Link className='link' to="/cart"> <FaCartPlus className='icons'/> CART </Link></li>
       </ul>
     </nav>
     </>
